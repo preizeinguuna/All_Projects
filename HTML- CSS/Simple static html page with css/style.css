@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+  
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    font-family: Helvetica,'Lucida Sans', sans-serif;
+    background-color:#FFFACD;
+    padding:5px 300px 5px 300px;
+    margin: auto auto auto auto;
+}
+
+
+h1{
+    color: blue;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wraper{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    background-color: white;
+    max-width: 1200px;
+    height: 800px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.left li{
+    list-style-type: none;
+    font-size: 13pt;
+    line-height: 130%;
+    padding: 3px;
+    border-bottom:lightgray 2px solid;
+    width: 160px;    
+    font-family: Helvetica,'Lucida Sans', sans-serif;
+}
+
+
+.left li:hover {
+    border-left: gray 8px solid;
+    height: 30px;
+}
+
+.left ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.logo{
+    width: 200px;
+    padding-top: 180px;
+    padding-right: 15px;
+}
+    
+.logo img{
+    display: flex;
+    width: 200px;
+}
+
+.left #line{
+    border-left: 6px double skyblue;
+    height: 740px;
+    position: fixed;
+    left: 31%;
+    margin-left: 3px;
+    top: 100px; 
+}
+
+.step-section-container{
+    display: grid;
+    grid-template-columns:400px 400px;
+    grid-column-gap: 20px;
+    float: left;
+    padding-top: 25px;
+}
+
+.step-item--title h2{
+    font-size: 14pt;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Helvetica,'Lucida Sans', sans-serif;
+}
+
+h2 img {
+    vertical-align: middle;
+}
+
+
+.step-item--description p{
+    text-align: justify;
+    line-height: 130%;
+    border: 5px solid lightgray;
+    background-color: lightgray;
+    border-radius: 8px;
+    font-family: Helvetica,'Lucida Sans', sans-serif;
+    padding: 10px;
+    font-size: 13pt;
+}
+
+.footer {
+    width: 1150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 20px;
+    font-family: Helvetica,'Lucida Sans', sans-serif;
+}
+
+.footer p {
+    color: black;
+
+}
